@@ -1,0 +1,144 @@
+/* nav bar */
+.nav-bar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-lin {
+  font-size: 2rem;
+}
+
+/* title */
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 3%;
+}
+
+.heading {
+  size: 4rem;
+  line-height: 1.5;
+}
+.row {
+  margin-top: 3%;
+  padding: 3%;
+}
+
+.container-fluid {
+  padding: 5% 20%;
+}
+
+.download-button {
+  margin: 8% 5% 5% 0;
+}
+
+.title-image {
+  width: 40%;
+  transform: rotate(25deg);
+  right: 30%;
+  position: absolute;
+}
+@media (max-width: 1028px) {
+  .title-image {
+    position: static;
+    transform: rotate(0deg);
+  }
+}
+
+/* features */
+
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+.fa-3x {
+  margin-bottom: 5%;
+}
+.logos {
+  padding: 5%;
+}
+
+/* testimonials */
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+.testimonials-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 2%;
+}
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+#pricing {
+  padding: 10%;
+}
+.pricing-plan {
+  text-align: center;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* cta */
+
+#cta {
+  padding: 7% 15%;
+  background-color: #ff4c68;
+}
+.cta-love {
+  text-align: center;
+}
+.find {
+  color: #fff;
+  font-size: 350%;
+  padding: 3% 5%;
+}
+#footer {
+  background-color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+}
+.social-media {
+  padding: 2%;
+}
+.social {
+  padding: 1%;
+  height: 50px;
+}
